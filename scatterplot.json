@@ -35,12 +35,12 @@
       "y": {"field": "Tasting menu from(AUD)", "type": "quantitative", "title": "Price", "scale": {"domain": [0, 900]}},
       "color": {"value": "#461d74e1"},
        "tooltip": [
-        {"field": "Rank", "type": "nominal", "title": "Rank:"},
-        {"field": "Restaurant Name", "type": "nominal", "title": "Restaurant Name:"},
-        {"field": "Country", "type": "nominal", "title": "Country:"},
-        {"field": "City", "type": "nominal", "title": "City:"},
-        {"field": "Continent", "type": "nominal", "title": "Continent:"},
-        {"field": "Tasting menu from(AUD)", "type": "nominal", "title": "Tasting menu from(AUD):"}]
+        {"field": "Rank", "type": "nominal", "title": "Rank"},
+        {"field": "Restaurant Name", "type": "nominal", "title": "Restaurant Name"},
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {"field": "City", "type": "nominal", "title": "City"},
+        {"field": "Continent", "type": "nominal", "title": "Continent"},
+        {"field": "Tasting menu from(AUD)", "type": "nominal", "title": "Tasting menu from(AUD)"}]
     },
     "background": "#f0cea105"
   }
