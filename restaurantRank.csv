@@ -1,0 +1,101 @@
+Rank,Restaurant Name,City,Country,Continent,Tasting menu from(USD),Tasting menu from(AUD),Latitude,Longitude,Michelin,Type,MICHELIN Green Star
+1,Central,Lima,Peru,South America,180,283,-12.15264587,-77.02245759,0,Peruvian,0
+2,Disfrutar,Barcelona,Spain,Europe,165,259,41.38777207,2.153211267,2,Creative,0
+3,DiverXO,Madrid,Spain,Europe,280,440,40.45790022,-3.685777501,3,Creative,0
+4,Asador Etxebarri,Atxondo,Spain,Europe,200,314,43.11587272,-2.598470693,1,Grills,0
+5,Alchemist,Copenhagen,Denmark,Europe,570,895,55.69396963,12.61387538,2,Innovative,1
+6,Maido,Lima,Peru,South America,150,236,-12.12541634,-77.0305759,0,,0
+7,Lido 84,Gardone Riviera,Italy,Europe,100,157,45.62515961,10.57556658,1,Creative,0
+8,Atomix,New York,United States of America,North America,205,322,40.74429238,-73.98280692,2,"Korean,Contemporary",0
+9,Quintonil,Mexico City,Mexico,North America,120,188,19.43089995,-99.1917555,0,,0
+10,Table by Bruno Verjus,Paris,France,Europe,125,196,48.84880067,2.37585866,2,Modern Cuisine,1
+11,Tresind Studio,Dubai,United Arab Emirates,Asia,135,212,25.11423765,55.13961768,2,Indian,0
+12,A Casa do Porco,Sao Paulo,Brazil,South America,40,63,-23.54490869,-46.64473706,0,,0
+13,Pujol,Mexico City,Mexico,North America,120,188,19.43237916,-99.19483765,0,,0
+14,Odette,Singapore,Singapore,Asia,110,173,1.289707833,103.8514432,3,French Contemporary,0
+15,Le Du,Bangkok,Thailand,Asia,75,118,13.72503822,100.5293612,1,Thai contemporary,0
+16,Reale,Castel di Sangro,Italy,Europe,190,298,41.77999401,14.09460002,3,"Creative, Modern Cuisine",0
+17,Gaggan Anand,Bangkok,Thailand,Asia,100,157,13.74078752,100.5675864,0,,0
+18,Steirereck,Vienna,Austria,Europe,115,181,48.20446277,16.38139543,2,"Creative, Contemporary",0
+19,Don Julio,Buenos Aires,Argentina,South America,30,47,-34.58630853,-58.42430574,0,,0
+20,Quique Dacosta,Denia,Spain,Europe,235,369,38.85374028,0.085201566,3,Creative,0
+21,Den,Tokyo,Japan,Asia,140,220,35.67317799,139.7127189,2,Japanese,1
+22,Elkano,Getaria,Spain,Europe,60,94,43.30302547,-2.204963822,1,"Seafood, Grills",0
+23,Kol,London,United Kingdom,Europe,135,212,51.51476596,-0.157523232,1,"Mexican, Modern Cuisine",0
+24,Septime,Paris,France,Europe,65,102,48.85357749,2.380933322,1,Modern Cuisine,1
+25,Belcanto,Lisbon,Portugal,Europe,185,290,38.71009872,-9.141466252,2,"Creative, Portuguese",0
+26,Schloss Schauenstein,Furstenau,Switzerland,Europe,250,393,46.72115314,9.445999449,3,"Creative, Country cooking",1
+27,Florilege,Tokyo,Japan,Asia,70,110,35.66161188,139.7434462,2,French,1
+28,Kjolle,Lima,Peru,South America,125,196,-12.15288997,-77.02257551,0,,0
+29,Borago,Santiago,Chile,South America,90,141,-33.38250464,-70.58409081,0,,0
+30,Frantzen,Stockholm,Sweden,Europe,365,573,59.33391045,18.05861158,3,Modern Cuisine,0
+31,Mugaritz,San Sebastian,Spain,Europe,245,385,43.27233957,-1.917072659,2,Creative,0
+32,Hisa Franko,Kobarid,Slovenia,Europe,225,353,46.2472304,13.53775652,3,"Creative, Regional Cuisine",1
+33,El Chato,Bogota,Colombia,South America,40,63,4.647832481,-74.05709343,0,,0
+34,Uliassi,Senigallia,Italy,Europe,180,283,43.71946926,13.22080744,3,"Creative, Seafood",0
+35,Ikoyi,London,United Kingdom,Europe,95,149,51.51242783,-0.115055735,2,Creative,0
+36,Plenitude,Paris,France,Europe,415,652,48.8588251,2.342003992,3,Creative,0
+37,Sezanne,Tokyo,Japan,Asia,190,298,35.67809083,139.7668689,2,"French, Contemporary",0
+38,The Clove Club,London,United Kingdom,Europe,120,188,51.52712441,-0.079337987,2,Creative,0
+39,The Jane,Antwerp,Belgium,Europe,215,338,51.20248068,4.423451696,2,Creative,0
+40,Restaurant Tim Raue,Berlin,Germany,Europe,100,157,52.50689897,13.39147031,0,,0
+41,Le Calandre,Rubano,Italy,Europe,255,400,45.42174517,11.80963323,3,Creative,0
+42,Piazza Duomo,Alba,Italy,Europe,295,463,44.70061895,8.035795206,3,"Creative, Seasonal Cuisine",1
+43,Leo,Bogota,Colombia,South America,100,157,4.648081245,-74.05645237,0,,0
+44,Le Bernardin,New York,United States of America,North America,190,298,40.76142528,-73.98175769,3,Seafood,0
+45,Nobelhart & Schmutzig,Berlin,Germany,Europe,105,165,52.50533938,13.39041479,1,"Creative, Regional Cuisine",1
+46,Orfali Bros Bistro,Dubai,United Arab Emirates,Asia,50,79,25.21866189,55.26127526,0,Contemporary,0
+47,Mayta,Lima,Peru,South America,41,64,-12.10988276,-77.04920184,0,,0
+48,La Grenouillere,La Madeleine-Sous-Montreuil,France,Europe,115,181,50.47112332,1.754442043,2,Creative,1
+49,Rosetta,Mexico City,Mexico,North America,40,63,19.41842439,-99.15779813,0,,0
+50,The Chairman,Hong Kong,China,Asia,85,133,22.28482826,114.1530083,1,Cantonese,0
+51,Narisawa,Tokyo,Japan,Asia,250,393,35.67162339,139.7221152,2,Innovative,1
+52,Hof Van Cleve,Kruishoutem,Belgium,Europe,220,345,50.90366919,3.509660941,3,Creative,0
+53,Brat,London,United Kingdom,Europe,40,63,51.52420505,-0.076703695,1,Traditional British,0
+54,Alcalde,Guadalajara,Mexico,North America,80,126,20.67938741,-103.3897971,0,,0
+55,Ernst,Berlin,Germany,Europe,205,322,52.54468945,13.36802023,1,"Creative, Modern Cuisine",0
+56,Sorn,Bangkok,Thailand,Asia,85,133,13.72312261,100.568499,2,Southern Thai,0
+57,Jordnaer,Copenhagen,Denmark,Europe,415,652,55.96489685,12.28276221,2,"Seafood, Creative",0
+58,Lasai,Rio de Janeiro,Brazil,South America,100,157,-22.95330361,-43.19631178,1,Modern Cuisine,0
+59,Merito,Lima,Peru,South America,35,55,-12.15050095,-77.02075104,0,,0
+60,La Cime,Osaka,Japan,Asia,80,126,34.68582014,135.5034283,2,French,0
+61,Chef's Table at Brooklyn Fare,New York,United States of America,North America,360,565,40.75611963,-73.99659226,1,Latin American,0
+62,Arpege,Paris,France,Europe,195,306,48.85575722,2.317029419,3,Creative,1
+63,Neolokal,Istanbul,Turkey,Asia,30,47,41.02383568,28.97340105,1,"Turkish, Modern Cuisine",1
+64,Aponiente,El Puerto de Santa Maria,Spain,Europe,220,345,36.6032583,-6.216533767,3,"Creative, Innovative",1
+65,Burnt Ends,Singapore,Singapore,Asia,110,173,1.304609335,103.8089917,1,Barbecue,0
+66,Turk Fatih Tutak,Istanbul,Turkey,Asia,118,185,41.05834348,28.97776641,2,"Turkish, Modern Cuisine",0
+67,Le Clarence,Paris,France,Europe,380,597,48.86743612,2.309773204,2,"Creative, Modern Cuisine",0
+68,SingleThread,Healdsburg,United States of America,North America,330,518,38.61230421,-122.8697041,3,"Contemporary, Californian",1
+69,Zen,Singapore,Singapore,Asia,330,518,1.279480109,103.8403838,3,European Contemporary,0
+70,Sud 777,Mexico City,Mexico,North America,80,126,19.30908349,-99.20930351,0,,0
+71,Core by Clare Smyth,London,United Kingdom,Europe,160,251,51.5127732,-0.20313514,3,Modern British,0
+72,Suhring,Bangkok,Thailand,Asia,110,173,13.7108196,100.5454876,2,European Contemporary,0
+73,Cosme,New York,United States of America,North America,100,157,40.73959784,-73.98835571,1,"Mexican, Regional Cuisine",0
+74,Nusara,Bangkok,Thailand,Asia,60,94,13.74570286,100.4915279,0,Thai,0
+75,Fyn,Cape Town,South Africa,Africa,35,55,-33.9247149,18.42179019,0,,0
+76,Oteque,Rio de Janeiro,Brazil,South America,120,188,-22.9574722,-43.19438394,2,Modern Cuisine,0
+77,Tantris,Munich,Germany,Europe,110,173,48.16979538,11.58833919,2,"Classic French, Classic Cuisine",0
+78,Alleno Paris au Pavillon Ledoyen,Paris,France,Europe,425,667,48.86616917,2.31632451,3,Creative,0
+79,Nuema,Quito,Ecuador,South America,85,133,-0.198247182,-78.4825415,0,,0
+80,Flocons de Sel,Megeve,France,Europe,185,290,45.83027878,6.59689769,3,Modern Cuisine,0
+81,Azurmendi,Larrabetzu,Spain,Europe,245,385,43.2605704,-2.816021454,3,Creative,1
+82,Enigma,Barcelona,Spain,Europe,85,133,41.37672445,2.154100677,1,Creative,0
+83,Sazenka,Tokyo,Japan,Asia,185,290,35.64957561,139.7283629,3,Chinese,0
+84,Meta,Singapore,Singapore,Asia,45,71,1.293902127,103.8418105,1,Innovative,0
+85,Enrico Bartolini,Milan,Italy,Europe,300,471,45.45154886,9.161627754,3,Creative,0
+86,Lyle's,London,United Kingdom,Europe,75,118,51.52375585,-0.076477264,1,Modern British,0
+87,Ossiano,Dubai,United Arab Emirates,Asia,315,495,25.13124759,55.11757238,1,Creative,0
+88,Potong,Bangkok,Thailand,Asia,140,220,13.73915937,100.508492,1,Innovative,0
+89,Mingles,Seoul,South Korea,Asia,75,118,37.5253384,127.0441443,2,"Korean, Korean Contemporary",0
+90,Wing,Hong Kong,China,Asia,225,353,22.28491394,114.1528748,0,Innovative,0
+91,Kadeau,Copenhagen,Denmark,Europe,330,518,55.6722936,12.58898025,2,"Creative, Modern Cuisine",1
+92,Neighborhood,Hong Kong,China,Asia,35,55,22.28304183,114.1528438,1,European Contemporary,0
+93,Kei,Paris,France,Europe,140,220,48.86432843,2.342131847,3,"Creative, Modern Cuisine",0
+94,La Colombe,Cape Town,South Africa,Africa,35,55,-34.01516713,18.40331162,0,"French, European",0
+95,Ceto,Roquebrune-Cap-Martin,France,Europe,170,267,43.75681976,7.444427638,1,"Seafood, Mediterranean Cuisine",0
+96,Ricard Camarena Restaurant,Valencia,Spain,Europe,75,118,39.48525999,-0.385215685,2,Creative,1
+97,Labyrinth,Singapore,Singapore,Asia,78,122,1.289750073,103.8562971,1,"Innovative, Singaporean",0
+98,Saison,San Francisco,United States of America,North America,288,452,37.77952337,-122.3922696,2,"Contemporary, Californian",0
+99,Fu He Hui,Shanghai,China,Asia,80,126,31.21866282,121.4296824,1,Vegetarian,0
+100,Maito,Panama City,Panama,North America,70,110,8.994377186,-79.49800486,0,"Contemporary,Panamanian",0
