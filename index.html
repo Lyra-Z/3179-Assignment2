@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The World's 100 Best Restaurants in 2023</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page">
+        <h1>The World's 100 Best Restaurants in 2023</h1>
+        <hr class="underline">
+        <div class="link-source">Source:  <a href="https://www.theworlds50best.com/list/1-50">
+            theworlds50best.com</a> 
+        </div>
+        <!-- map  -->
+        <div class="map-container">
+            <div class="map-text">
+                <h2>Global Distribution of the Restaurants</h2>
+                <div class="map-t1">The provided map offers a visual representation of 
+                    the distribution of restaurants across different continents and 
+                    countries. The shaded regions, predominantly seen in North America, 
+                    South America, Europe, and parts of Asia. Individual black dots 
+                    pinpoint specific locations where these restaurants. You can choose 
+                    region filter to focus on specific continent and free scaling.
+                </div>
+            </div>
+            <div id="vis1" class="vis-map"></div>
+        </div>
+        <!-- end  -->
+
+        <hr class="line">
+
+        <!-- bar+waffle -->
+        <div class="bw-container">
+
+            <div id="vis2" class="vis-bar"></div>
+            
+            <div class="waffle-section">
+                <div id="vis3" class="vis-waffle"></div>
+                <div class="bw-title">Location Distribution</div>
+                <div class="bw-t">The bar chart shows Paris stands out at the top, 
+                    with the highest number of restaurants, followed closely by 
+                    Bangkok and London. Cities like Tokyo, New York, and Mexico 
+                    City have a moderate representation with around 4-5 restaurants. 
+                    The chart displays a typical long-tail distribution, where a few 
+                    cities have many restaurants. As we move down the chart, the 
+                    number of restaurants per city decreases, with a vast majority 
+                    having only one.
+                    <br><br>
+                    The waffle chart shows Europe is the dominant region with 45% of 
+                    the restaurants on the list, reflecting its strong culinary 
+                    heritage and diverse gastronomic offerings. Asia follows with 27%. 
+                    South America and North America account for 13% and 12%, 
+                    respectively, while Africa has the least representation with only 2%. 
+                    This distribution underscores Europe and Asia's prominence in the 
+                    culinary world while highlighting opportunities for growth and 
+                    recognition in continents like Africa.</div>
+            </div>
+        </div>
+        <!-- end  -->
+
+
+        <hr class="line">
+        <!-- scatter -->
+        <div class="scatter-container">
+            <div id="vis6" class="vis-scatter"></div>
+            <div class="scatter-text">
+                <div class="scatter-title">Price Guide</div>
+                <div class="scatter-t">
+                    A tasting menu is a collection of several dishes in small portions,
+                     served in a single meal. It is designed to showcase the chef's 
+                     skills and creativity, offering a journey through various flavors, 
+                     culinary styles, and techniques. Diners experience a sequence of 
+                     courses, often with the option of wine pairing, where each beverage 
+                     complements the flavors of the dishes. The tasting menu aims to 
+                     provide a comprehensive and immersive dining experience, exploring
+                      the chef's signature offerings and gastronomic vision.
+                    <br><br>
+                    The majority of the restaurants have tasting menu 
+                    prices ranging between 150 to 550 AUD. 
+                    Only a few outliers have prices above or below this range. 
+                    There isn't a strong direct correlation between rank and price. 
+                    In conclusion, while rank might influence the tasting menu's price 
+                    to some extent, other factors likely play a significant role in 
+                    pricing decisions.
+                </div>
+            </div>
+        </div>
+        <!-- end  -->
+
+        <hr class="line">
+        <h3>Michelin Guide</h3>
+        <!-- donutchart -->
+        <div class="donut-container">
+            <div class="part0">
+                <div class="d-title">What is a Michelin Star? </div> 
+                <div class="p0-t">A Michelin Star is awarded to 
+                    restaurants offering outstanding cooking. 
+                    They take into account five universal criteria:
+                     the quality of the ingredients, the harmony 
+                     of flavours, the mastery of techniques, the 
+                     personality of the chef as expressed through 
+                     their cuisine and, just as importantly, consistency
+                      both across the entire menu and over time.
+                    </div>
+                <div class="link">Source:  <a href="https://guide.michelin.com/en/article/features/what-is-a-michelin-star">
+                    Michelin Guide</a> website.
+                </div>
+
+            </div>
+
+            <div class="part1">
+                <div class="p1-text">
+                    <div class="d-title">What is the difference between 1, 2 and 3 Michelin Stars? </div> 
+                    <div class="d-t"><span class="bold-word">One</span>  Michelin Star is awarded to 
+                        restaurants using top quality ingredients, 
+                        where dishes with distinct flavours are prepared 
+                        to a consistently high standard.<br>
+                        <br><span class="bold-word">Two</span> Michelin Stars are awarded when the personality 
+                        and talent of the chef are evident in their expertly 
+                        crafted dishes; their food is refined and inspired.<br>
+                        <br><span class="bold-word">Three</span>  Michelin Stars is the highest award, given 
+                        for the superlative cooking of chefs at the peak of 
+                        their profession; their cooking is elevated to an art 
+                        form and some of their dishes are destined to become 
+                        classics.
+                    </div> 
+                    <div class="link"><br> Source:  <a href="https://guide.michelin.com/en/article/features/what-is-a-michelin-star">
+                        Michelin Guide</a> website.
+                    </div>
+                </div>
+                <div id="vis4" class="vis-donut1"></div>
+
+            </div>
+
+            <div class="part2">
+                <div class="p1-text">
+                    <div class="d-title">What is the Michelin Green Star? </div> 
+                    <div class="d-t">The Green Star is an accolade awarded annually. 
+                        It highlights to restaurant-goers those places that distinguish
+                         themselves on account of their bold, sincere and highly committed
+                          approach to sustainable gastronomy.<br>
+                          <br>Proposing a dining experience that has eco-responsibility 
+                          at its core, these places are true role models, designing an 
+                          alternative vision of gastronomy that is not only delicious 
+                          but also virtuous.<br>
+                          <br>Today, out of more than 15,000 restaurants recommended by the 
+                          Michelin Guide, just over 350 have obtained a Michelin Green Star. 
+                        </div>
+                        <div class="link"><br> Source:  <a href="https://guide.michelin.com/en/article/sustainable-gastronomy/the-michelin-green-star">
+                            Michelin Guide</a> website.
+                        </div>
+                </div>
+                <div id="vis5" class="vis-donut"></div>
+      
+            </div>
+        </div>
+        <!-- end -->
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var specVis1 = "map.json";
+        vegaEmbed('#vis1', specVis1);
+
+        var specVis2 = "barchart.json";
+        vegaEmbed('#vis2', specVis2);
+
+        var specVis3 = "wafflechart.json";
+        vegaEmbed('#vis3', specVis3);
+        var specVis4 = "donutchart1.json";
+        vegaEmbed('#vis4', specVis4);
+        var specVis5 = "donutchart2.json";
+        vegaEmbed('#vis5', specVis5);
+
+        var specVis6 = "scatterplot.json";
+        vegaEmbed('#vis6', specVis6);
+
+        print(brush)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/Lyra-Z/-3139-homework_w9/main/data/restaurantRank.csv"},
+  "width": 370,
+  "height":370,
+  "title":{
+    "text":  "The percentage of restaurants in each continent",
+    "anchor": "middle",  
+    "offset": 30  
+  },
+  "background": "#f0cea105",
+  "config": {
+    "view": {"stroke": null},
+    "title": {"fontSize": 20}
+  },
+  "transform": [
+    {
+      "joinaggregate": [{"op": "count", "field": "Continent", "as": "Total"}]
+    },
+    {
+      "joinaggregate": [
+        {"op": "count", "field": "Continent", "as": "Group"}
+      ],
+      "groupby": ["Continent"]
+    },
+    {
+      "calculate": "round(datum.Group/datum.Total * 100)",
+      "as": "percentage"
+    },
+    {
+      "aggregate": [{"op": "min", "field": "percentage", "as": "Percentage"}],
+      "groupby": ["Continent"]
+    },
+    {"calculate": "sequence(1,datum.Percentage+1)", "as": "S"},
+    {"flatten": ["S"]},
+    {
+      "window": [{"op": "row_number", "as": "id"}],
+      "sort": [{"field": "Continent", "order": "descending"}]
+    },
+    {"calculate": "ceil (datum.id / 10)", "as": "row"},
+    {"calculate": "datum.id - datum.row * 10", "as": "col"},
+    {
+    "calculate": "datum.Percentage + '%'",
+    "as": "FormattedPercentage"
+    }
+  ],
+  "mark": {
+    "type": "square",
+    "filled": true,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {"field": "col", "type": "ordinal", "axis": null},
+    "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "-y"},
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "scale": {
+        "range": ["#d1bfe2", "#a28bb9", "#5a2d7a", "#726a95", "#b2b2c1"]
+      },
+      "legend": {
+        "orient": "bottom",
+        "offset": 10,
+        "labelOffset": 3,
+        "labelFontSize":13,
+        "title":null
+      }
+    },
+    "size": {"value": 1100},
+    "tooltip": [
+      {"field": "Continent", "type": "nominal"},
+      {"field": "FormattedPercentage", "type": "nominal"}]
+    }
+}
